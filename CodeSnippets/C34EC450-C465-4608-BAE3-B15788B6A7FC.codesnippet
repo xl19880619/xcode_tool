@@ -3,22 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ddd</string>
+	<string>wpWeakSelf</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc {
-    &lt;#ivar#&gt;
-    [super dealloc];
-}</string>
+	<string>    __weak __typeof(&amp;*self)weakSelf = self;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D8C239B1-F57F-4975-BFA2-F04B13D75E23</string>
+	<string>C34EC450-C465-4608-BAE3-B15788B6A7FC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC dealloc</string>
+	<string>wpWeakSelf</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

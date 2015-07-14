@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>de</string>
+	<string>docall</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>debugMethod();</string>
+	<string>/**
+ &lt;#description#&gt;
+ @param &lt;#paramemters#&gt;
+ @return &lt;#retvals#&gt;
+ @exception &lt;#throws#&gt;
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>24C40543-FD02-442F-84F9-7D7EBAD89F21</string>
+	<string>BEF0D30C-041B-47EB-9ACB-0B24BFD6EB33</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>debug method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug method</string>
+	<string>DescriptionSnippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
