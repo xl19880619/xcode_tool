@@ -2,21 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yxpnetworkapibasemethod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@synthesize &lt;#property#&gt; = _&lt;#propertyIvar#&gt;;</string>
+	<string>#pragma mark - YXPNetworkAPIBase Override Method
+- (NSString *)httpMethod{
+    return &lt;#kYXPHttpMethod#&gt;;
+}
+
+- (NSString *)apiPath{
+    return &lt;#apiPath#&gt;;
+}
+
+- (NSDictionary *)params {
+    return @{
+             @"&lt;#key#&gt;" : @"&lt;#value#&gt;",
+             };
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>764FBA7E-5782-45E8-AB28-C46EEDE39879</string>
+	<string>8A5B3497-7876-4A4A-A797-67D7A7D1E2C5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Synthesize</string>
+	<string>YXPNetworkAPIBaseMethod</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
